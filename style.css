@@ -1,0 +1,104 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #131218;
+  color: #1D1D1F;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+h1, h2, h3 {
+  color: #1D1D1F;
+  font: bold;
+  font-family: 'Righteous', cursive;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+h2 {
+  color: #D11F2A;
+}
+
+#description {
+  font-color: : blue;
+}
+
+#button {
+  text-decoration: none;
+  background-color: #D11F2A;
+  padding: 10px 20px 10px 20px;
+  border-radius: 16px;
+  color: white;
+  line-height: 20px;
+}
+
+a:hover {
+  color: #D11F2A;
+  font-size: 18px;
+}
+
+.card {
+  background-color: #FAFAFA;
+  width: 50%;
+  margin: 10px auto;
+  padding: 20px 0px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0px 0px 20px rgba(0,0,0,.2);
+}
+
+ul {
+  color: white
+}
+
+.socialLinks {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 50px;
+  font-size: 15px;
+}
+
+.fab {
+  font-size: 30px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
